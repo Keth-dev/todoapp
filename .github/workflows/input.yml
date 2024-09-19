@@ -2,9 +2,9 @@ name: 08-03-Contexts - Inputs
 
 on:
   workflow_dispatch:
-    inputs:
-        somevalue:
-            type: string
+    Inputs:
+      somevalue:
+        type: string
       debug:
         type: boolean
         default: false
@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use Workflow Input
-        - run: echo "DEBUG: ${{ inputs.debug }}"
-        - run: echo "DEBUG: ${{ inputs.debug }}"
+        run: |
+          echo "DEBUG: ${{ inputs.debug }}"
+
 
         
