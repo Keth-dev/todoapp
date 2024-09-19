@@ -11,7 +11,7 @@
    git clone https://github.com/swayaan-training/todoapp.git
    ```
 
-   This will create a local copy of the repository in your current directory.
+   This will create a local copy of the repository in your current dir
 
 3. Navigate to the cloned repository:
 
